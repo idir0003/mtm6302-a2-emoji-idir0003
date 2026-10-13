@@ -1,0 +1,49 @@
+
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #511024;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Main heading */
+h1 {
+  color: #a64d79;
+  font-size: 32px;
+}
+
+p {
+  color: #735b68;
+}
+
+/* Responsive emoji gallery */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* Individual emoji cards */
+.emoji-card {
+  background-color: white;
+  padding: 25px;
+  border: 2px solid #f5d5e3;
+  border-radius: 12px;
+}
+
+/* Emoji size */
+.emoji {
+  display: block;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+/* Decimal code */
+.emoji-card p {
+  font-size: 14px;
+  color: #85546d;
+}
